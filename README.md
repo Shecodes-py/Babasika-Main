@@ -29,7 +29,11 @@ Do not commit `.env` or real database credentials. `.env.example` is safe to com
 
 Edit `prisma/schema.prisma` for schema changes, then create a named development migration with `npm run prisma:migrate:dev -- --name <description>`. Commit both the schema and generated migration directory. Apply committed migrations to a deployment database with `npm run prisma:migrate:deploy`.
 
+<<<<<<< HEAD
 The initial schema creates `users` and `pfas`. User phone numbers, email addresses, and PFA names are unique. Email remains optional until authentication is implemented. User names are stored separately as `firstName` and `lastName`; `lastName` is optional to support users who do not provide one.
+=======
+The initial schema creates `users` and `pfas`. User phone numbers and PFA names are unique. Review these constraints with your mentor before changing them.
+>>>>>>> origin/main
 
 ## Code quality
 
