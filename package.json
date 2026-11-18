@@ -10,13 +10,8 @@
   "scripts": {
     "build": "nest build",
     "deploy": "nest deploy",
-<<<<<<< HEAD
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" prisma.config.ts",
     "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\" prisma.config.ts",
-=======
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"prisma/**/*.ts\"",
-    "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\" \"prisma/**/*.ts\"",
->>>>>>> origin/main
     "prisma:generate": "prisma generate",
     "prisma:migrate:dev": "prisma migrate dev",
     "prisma:migrate:deploy": "prisma migrate deploy",
