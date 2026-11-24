@@ -28,6 +28,14 @@ async function bootstrap() {
           },
         },
       },
+      '/pfas': {
+        get: {
+          summary: 'List pension fund administrators',
+          responses: {
+            '200': { description: 'PFA list returned from cache or database' },
+          },
+        },
+      },
     },
   } as const;
   app.use('/api', swaggerUi.serve, swaggerUi.setup(openApiDocument));
