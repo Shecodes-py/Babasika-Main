@@ -4,7 +4,8 @@
 /.npm-cache
 /src/generated/prisma/
 /build
-ella-docs
+docs/
+ella-docs/
 
 # TypeScript build cache
 *.tsbuildinfo
